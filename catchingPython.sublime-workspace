@@ -3,37 +3,18 @@
 	{
 		"selected_items":
 		[
+			[
+				"star",
+				"start_new_thread"
+			],
+			[
+				"loop",
+				"loop1"
+			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "helloWorld.py",
-			"settings":
-			{
-				"buffer_size": 199,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sockets",
-			"settings":
-			{
-				"buffer_size": 491,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client",
-			"settings":
-			{
-				"buffer_size": 345,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
@@ -107,6 +88,11 @@
 	},
 	"file_history":
 	[
+		"/home/suri/Workspace/catchingpython/mtSleepA.py",
+		"/home/suri/Workspace/catchingpython/helloWorld.py",
+		"/home/suri/Workspace/catchingpython/sockets",
+		"/home/suri/Workspace/catchingpython/client",
+		"/home/suri/Workspace/catchingpython/threading",
 		"/home/suri/.config/sublime-text-3/Packages/Python Fix Imports/README.rst",
 		"/home/suri/.config/sublime-text-3/Packages/Terminality/README.md",
 		"/home/suri/Workspace/catchingpython/catchingPython.sublime-project",
@@ -115,7 +101,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -129,6 +115,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"def main():"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -146,100 +133,14 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "helloWorld.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 199,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								199,
-								199
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sockets",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 491,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								432,
-								432
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "client",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 345,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								290,
-								290
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -284,7 +185,7 @@
 	"project": "catchingPython.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
